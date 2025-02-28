@@ -1,13 +1,6 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 :root.theme-light {
   --bd-image: url(../images/cover-image-light.png);
   --accent-color: #ff8dcb;
-  /* --accent-color-light: #353430; */
   --text-color-h1: #ffc2e6;
   --br-color-button: #32312d66;
   --text-color-text: #353430;
@@ -21,7 +14,6 @@
   :root {
     --bd-image: url(../images/cover-image-light.png);
     --accent-color: #ff8dcb;
-    /* --accent-color-light: #353430; */
     --text-color-h1: #ffc2e6;
     --br-color-button: #32312d66;
     --text-color-text: #353430;

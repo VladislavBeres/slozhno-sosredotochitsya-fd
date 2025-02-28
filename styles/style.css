@@ -328,7 +328,6 @@
     grid-template-rows: min-content repeat(3, minmax(min-content, max-content));
     grid-auto-flow: dense;
     gap: 20px;
-    /* min-height: 823px; */
     padding: 0 20px;
   }
 
