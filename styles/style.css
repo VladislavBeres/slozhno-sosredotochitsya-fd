@@ -325,10 +325,10 @@
   .gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: min-content repeat(3, 1fr);
+    grid-template-rows: min-content repeat(3, minmax(min-content, max-content));
     grid-auto-flow: dense;
     gap: 20px;
-    /* max-height: 823px; */
+    /* min-height: 823px; */
     padding: 0 20px;
   }
 
@@ -349,6 +349,9 @@
   .gallery__image:nth-child(4) {
     grid-column: 1 / 2;
     grid-row: 3 / 5;
+  }
+
+  .gallery__image:nth-child(5){
   }
 
   .gallery__image:nth-child(6) {
