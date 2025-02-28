@@ -1,4 +1,5 @@
 :root {
+  --bd-image: url(../images/cover-image-dark.png);
   --accent-color: #ff0070;
   --text-color-h1: #db00ff;
   --text-color-text: #000028;
