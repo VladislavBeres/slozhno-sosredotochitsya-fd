@@ -13,10 +13,9 @@
   --text-color-text: #353430;
   --text-color: #353430;
   --text-color-p: #353430;
-  --bg-color: #FFF1F7;
+  --bg-color: #fff1f7;
   --br-color: #353430;
 }
-
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -28,7 +27,7 @@
     --text-color-text: #353430;
     --text-color: #353430;
     --text-color-p: #353430;
-    --bg-color: #FFF1F7;
+    --bg-color: #fff1f7;
     --br-color: #353430;
   }
   .header__icon-element {
@@ -40,48 +39,4 @@
   .header__icon-element {
     display: none;
   }
-
-  /* .decorated-zone::before {
-    border-top: 1px solid var(--accent-color-light);
-    border-right: 1px solid var(--accent-color-light);
-  }
-
-  .decorated-zone::after {
-    border-bottom: 1px solid var(--accent-color-light);
-    border-left: 1px solid var(--accent-color-light);
-  }
-
-  .header__theme-menu {
-    color: var(--accent-color-light);
-  }
-
-  .header__theme-menu-button_active:disabled   {
-    border: 1px solid var(--accent-color-light);
-  }
-
-  .header__theme-menu-button:focus-visible {
-    --accent-color: #353430;
-    border-block-end: 1px solid var(--accent-color);
-  }
-
-  .content__tiile {
-    color: var(--accent-color-light);
-  }
-
-  .content__subtitle {
-    color: var(--accent-color-light);
-  }
-
-  .content__text {
-    color: var(--accent-color-light);
-  }
-  .content__text-link:hover {
-    border-bottom: 1px solid var(--accent-color-light);
-  }
-
-  .content__text-link:focus-visible {
-    outline: 1px solid var(--accent-color-light);
-  } */
 }
-
-
