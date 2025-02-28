@@ -1,7 +1,7 @@
 :root.theme-light {
   --bd-image: url(../images/cover-image-light.png);
   --accent-color: #ff8dcb;
-  --text-color-h1: #ffc2e6;
+  --main-title-color: #ffc2e6;
   --br-color-button: #32312d66;
   --text-color-text: #353430;
   --text-color: #353430;
@@ -14,7 +14,7 @@
   :root {
     --bd-image: url(../images/cover-image-light.png);
     --accent-color: #ff8dcb;
-    --text-color-h1: #ffc2e6;
+    --main-title-color: #ffc2e6;
     --br-color-button: #32312d66;
     --text-color-text: #353430;
     --text-color: #353430;

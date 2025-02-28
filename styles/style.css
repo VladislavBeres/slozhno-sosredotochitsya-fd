@@ -3,7 +3,7 @@
 .page {
   display: grid;
   grid-template-columns: minmax(375px, 1440px);
-  font-weight: var(--font-weight-reg);
+  font-weight: var(--font-weight-regular);
   background-color: var(--bg-color);
   background-image: var(--bd-image);
   background-repeat: no-repeat;
@@ -65,7 +65,7 @@
   justify-content: center;
   align-items: center;
   color: var(--accent-color);
-  font-weight: var(--font-weight-reg);
+  font-weight: var(--font-weight-regular);
   font-size: 18px;
   line-height: 25px;
   text-align: center;
@@ -88,8 +88,8 @@
   justify-items: end;
   margin-block-start: 65px;
   margin-block-end: 67px;
-  color: var(--accent-color);
-  font-weight: var(--font-weight-reg);
+  color: var(--br-color);
+  font-weight: var(--font-weight-regular);
   font-size: 18px;
   line-height: 18px;
 }
@@ -105,7 +105,6 @@
   display: flex;
   justify-content: center;
   border: 1px solid transparent;
-  color: var(--accent-color);
   text-transform: lowercase;
   background-color: transparent;
   cursor: pointer;
@@ -127,14 +126,14 @@
 }
 
 .header__theme-menu-button:focus-visible {
-  border-block-end: 1px solid var(--accent-color);
+  border-block-end: 1px solid var(--br-color);
 }
 
 /* -------------------заголовок header-------------- */
 
 .title {
-  color: var(--text-color-h1);
-  font-weight: var(--font-weight-bt);
+  color: var(--main-title-color);
+  font-weight: var(--font-weight-bold);
   font-size: var(--font-size-mob);
   line-height: 95.7px;
   text-shadow: 4px 4px 0 var(--accent-color);
@@ -143,14 +142,13 @@
 /* -------------------текст header-------------- */
 
 .header__text {
-  height: 117px;
   margin-block-start: 55px;
   margin-block-end: 55px;
 }
 
 .title-decorated {
   color: var(--text-color-text);
-  font-weight: var(--font-weight-bt);
+  font-weight: var(--font-weight-bold);
   font-size: 18px;
   line-height: 23.4px;
   background-color: var(--accent-color);
@@ -169,7 +167,7 @@
   display: grid;
   gap: 20px;
   margin-block-end: 50px;
-  font-weight: var(--font-weight-bt);
+  font-weight: var(--font-weight-bold);
   font-size: 18px;
   line-height: 23.4px;
 }
@@ -177,7 +175,7 @@
 .content__title {
   display: block;
   color: var(--text-color);
-  font-weight: var(--font-weight-bt);
+  font-weight: var(--font-weight-bold);
   font-size: 18px;
   line-height: 23.4px;
 }
@@ -190,7 +188,7 @@
 .content__text {
   margin: 10px 0 20px;
   color: var(--text-color-p);
-  font-weight: var(--font-weight-reg);
+  font-weight: var(--font-weight-regular);
 }
 
 .content__central-section {
@@ -305,8 +303,7 @@
     margin-block-end: 80px;
   }
 
-  .content__first-section,
-  .content__last-section {
+  .content__modified-section {
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr;
   }
@@ -331,26 +328,26 @@
     padding: 0 20px;
   }
 
-  .gallery__title:nth-child(1) {
+  .gallery__title {
     grid-column: span 3;
   }
 
-  .gallery__image:nth-child(2) {
+  .sunset {
     grid-column: 1 / 3;
     grid-row: 2 / 3;
   }
 
-  .gallery__image:nth-child(3) {
+  .ice-cream {
     grid-column: 3 / 4;
     grid-row: 2 / 4;
   }
 
-  .gallery__image:nth-child(4) {
+  .tape {
     grid-column: 1 / 2;
     grid-row: 3 / 5;
   }
 
-  .gallery__image:nth-child(6) {
+  .street {
     grid-column: -1 / -3;
     grid-row: -1 / -2;
   }
