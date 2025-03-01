@@ -15,7 +15,7 @@
 .header {
   position: relative;
   display: grid;
-  grid-template-rows: 1fr min-content 1fr;
+  grid-template-rows: repeat(3, min-content);
   height: 100vh;
   padding: 10px;
   background-image: var(--bd-image);
@@ -180,8 +180,12 @@
   line-height: 23.4px;
 }
 
+.content__container {
+  display: grid;
+  gap: 20px;
+}
+
 .content__text-decor {
-  margin-block-start: 20px;
   font-weight: 400;
 }
 
@@ -189,11 +193,6 @@
   margin: 10px 0 20px;
   color: var(--text-color-p);
   font-weight: var(--font-weight-regular);
-}
-
-.content__central-section {
-  display: grid;
-  gap: 20px;
 }
 
 .content__text:last-child {
@@ -206,7 +205,7 @@
 }
 
 .content__text-link:hover {
-  border-block-end: 1px solid var(--text-color);
+  border-block-end: 1px solid var(--text-color-p);
 }
 
 .content__text-link:focus {
@@ -214,7 +213,7 @@
 }
 
 .content__text-link:focus-visible {
-  outline: 1px solid var(--text-color);
+  outline: 1px solid var(--text-color-p);
 }
 
 /* -------------------картинки-------------- */
@@ -223,7 +222,6 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 10px;
-  padding: 0 10px;
 }
 
 .gallery__image {
@@ -308,11 +306,6 @@
     grid-template-rows: 1fr;
   }
 
-  .content__central-section {
-    display: grid;
-    gap: 20px;
-  }
-
   .content__title {
     max-width: 236px;
   }
@@ -325,7 +318,6 @@
     grid-template-rows: min-content repeat(3, minmax(min-content, max-content));
     grid-auto-flow: dense;
     gap: 20px;
-    padding: 0 20px;
   }
 
   .gallery__title {
@@ -371,7 +363,7 @@
   .header__theme-menu {
     justify-items: center;
     margin: 0;
-    margin-block-end: 260px;
+    margin-block-end: 273px;
   }
 
   .header__theme-menu-list {
@@ -390,14 +382,12 @@
     max-block-size: 70px;
   }
 
-  .content__central-section {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-  }
-
   .content__title {
     max-width: 315px;
+  }
+
+  .content__central-section {
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .footer {

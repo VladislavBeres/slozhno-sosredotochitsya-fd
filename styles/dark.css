@@ -9,3 +9,9 @@
   --br-color: #ff0070;
   --bg-color: #000028;
 }
+
+.theme-dark .page {
+  .header__icon-element {
+    display: flex;
+  }
+}
